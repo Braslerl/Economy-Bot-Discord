@@ -16,3 +16,5 @@ And that's it.
  - [ ] More commands
  - [ ] More jobs
 
+## Demo:
+![Demo](Demo.gif)
