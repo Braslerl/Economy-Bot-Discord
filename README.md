@@ -18,3 +18,7 @@ And that's it.
 
 ## Demo:
 ![Demo](Demo.gif)
+
+
+## Update:
+Just run update.py
