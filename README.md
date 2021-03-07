@@ -21,4 +21,5 @@ And that's it.
 
 
 ## Update:
-Just run update.py
+Just run `update.py`, it will replace your old bot with the new version.
+![Demo update](Demo-update.gif)
