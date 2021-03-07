@@ -13,7 +13,7 @@ token = token_file.read()
 client.remove_command('help')
 
 #Current Version:
-version = "1.1"
+version = "1.0"
 
 #Check update
 from colorama import Fore
@@ -25,6 +25,7 @@ output.replace("\n", " ")
 if float(output) > float(version):
     print(Fore.YELLOW + "Your should upgrade your version.(https://github.com/Braslerl/Economy-Bot-Discord)" + Style.RESET_ALL)
     print(Fore.YELLOW + "Your version is "+str(version)+" but the newest version is "+output + Style.RESET_ALL)
+    print(Fore.YELLOW + "In this folder is a file called update.py, you can run it to perform an autoupdate."+ Style.RESET_ALL)   
 else:
     print(Fore.GREEN + "You are using the latest Version" + Style.RESET_ALL)
 
