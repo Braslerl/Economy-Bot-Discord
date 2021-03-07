@@ -1,7 +1,7 @@
 import os, urllib, discord, json, math, os.path, random, glob, colorama, requests, string
 from discord.ext import tasks, commands
 #A few var you can change:
-prefix = "x" #You should change the help command if you changed the prefix
+prefix = "x!" #You should change the help command if you changed the prefix
 #You have to put in a token in the token.txt file
 
 
