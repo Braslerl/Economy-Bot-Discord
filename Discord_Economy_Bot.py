@@ -13,7 +13,7 @@ token = token_file.read()
 client.remove_command('help')
 
 #Current Version:
-version = "1.0"
+version = "1.1"
 
 #Check update
 from colorama import Fore
